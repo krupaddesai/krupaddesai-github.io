@@ -1,0 +1,150 @@
+.hero-container{
+    background-image: url("../images/neutral.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+
+}
+
+.hero-container > h1 {
+    color: #fff;
+    font-size: 70px;
+    margin-top: 80px;
+    margin-left: -15px;
+}
+
+
+.hero-btns {
+    margin-top: 32px;
+    margin-bottom: 40px;
+    
+}
+
+.hero-btns .btn {
+    margin: 6px;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#B59DA4
+}
+.image > img{
+    height:200px;
+    width: 200px;
+    border-radius: 90%;
+    position: relative;
+    left: -30%;
+}
+
+
+.text{
+    margin-left: -40px;
+}
+
+.text > h1{
+    margin-left: auto;
+}
+
+.type-writer{
+    display: flex;
+    gap: 10px;
+    color: #511730;
+    margin-top: 5px;
+    
+}
+
+.type-writer > p{
+    color: #B59DA4;
+}
+
+.about{
+    display: flex;
+    gap: 5px;
+    color: #B59DA4;
+    margin-left: -425px;
+}
+
+.about-link {
+    color:#B59DA4;
+    text-decoration: none;
+}
+
+.about-link:hover {
+    color: #511730;
+}
+
+
+@media screen and (max-width: 960px){
+    .hero-container > h1{
+        font-size: 50px;
+    }
+
+    .intro{
+        margin-bottom: 50px;
+    }
+    .image > img{
+        height:150px;
+        width: 150px;
+        left: -30%;
+    }
+    
+    .text{
+        margin-left: -30px;
+    }
+
+    .about{
+        margin-top: -45px;
+        margin-right: -10px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .hero-container > h1{
+       font-size: 34px;
+       margin-top: -100px;
+       margin-left: 10px;
+    }
+
+    .btn-mobile {
+        display:block;
+        text-decoration: none;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    .intro{
+        margin-bottom: 30%;
+        font-size: 15px;
+        
+    }
+    .image > img{
+        height:100px;
+        width: 100px;
+        left: -20%;
+        top: 50%
+    }
+    
+    .text{
+        margin-left: -10px;
+    }
+
+    .about{
+        margin-bottom: 200px;
+        margin-right: -70px;
+        font-size: 13px;
+       
+    }
+}
+

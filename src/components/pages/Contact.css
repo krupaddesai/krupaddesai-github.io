@@ -1,0 +1,138 @@
+
+.container {
+  background-image: url("../../images/back4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  color:white;
+}
+a{
+  text-decoration: none;
+}
+.aboutSection__left,
+.aboutSection__right {
+  flex: 1;
+  height: 600px;
+  margin-right: 60px;
+}
+.h2 {
+  font-family: 'Montserrat Bold';
+  font-size: 6rem;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+}
+.h5 {
+  margin-top: 2rem;
+  margin-left: 0;
+  font-family: 'RobotoMono Regular';
+  font-size: 2rem;
+}
+
+.p{
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  line-height: 1.3em;
+}
+
+.divider{
+  height: 30px;
+}
+
+.aboutSection__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  gap: 2rem;
+  margin-top: 2rem;
+  
+}
+.aboutImg {
+  height: 500px;
+  width: 400px;
+
+  top: 150px;
+  
+}
+
+.contact-info{
+  padding: .2rem;
+  font-size: 15px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  color: #A27171;
+}
+
+.icon{
+  color: white;
+  background-color:#A27171;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+
+}
+
+svg {
+  width: 3.5rem;
+}
+@media only screen and (max-width: 950px) {
+  .aboutSection__left {
+    flex: 4;
+    width: 100%;
+  }
+  .aboutSection__right {
+    flex: 3;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  .container {
+    flex-direction: column;
+    text-align: center;
+    margin-right: -60px;
+
+  }
+  .aboutImg {
+    height: 400px;
+    width: 320px;
+    margin-top: -30px;
+    
+  }
+ 
+ 
+  .h2 {
+    text-align: center;
+    font-size: 3.6rem;
+  }
+  .h5 {
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+  .p{
+      font-size: 1.4rem;
+  }
+  .aboutSection__buttons {
+    flex-direction: column;
+    gap: 0rem;
+  };
+  .aboutSection__buttons > button-wrapper, a {
+      width: 100%;
+      text-align: center;
+  }
+}
+;
