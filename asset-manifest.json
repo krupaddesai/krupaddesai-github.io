@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e13d19a8.chunk.css",
+    "main.js": "/static/js/main.1fc0f95a.chunk.js",
+    "main.js.map": "/static/js/main.1fc0f95a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.804a31b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.804a31b5.js.map",
+    "static/js/2.5d908fa0.chunk.js": "/static/js/2.5d908fa0.chunk.js",
+    "static/js/2.5d908fa0.chunk.js.map": "/static/js/2.5d908fa0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e13d19a8.chunk.css.map": "/static/css/main.e13d19a8.chunk.css.map",
+    "static/js/2.5d908fa0.chunk.js.LICENSE.txt": "/static/js/2.5d908fa0.chunk.js.LICENSE.txt",
+    "static/media/2.a6447638.png": "/static/media/2.a6447638.png",
+    "static/media/3.a4ec0539.png": "/static/media/3.a4ec0539.png",
+    "static/media/4.b0a108e7.png": "/static/media/4.b0a108e7.png",
+    "static/media/IMG_2358.fb84b105.jpg": "/static/media/IMG_2358.fb84b105.jpg",
+    "static/media/Montserrat-Bold.079ca05d.ttf": "/static/media/Montserrat-Bold.079ca05d.ttf",
+    "static/media/Montserrat-SemiBold.fa8441f3.ttf": "/static/media/Montserrat-SemiBold.fa8441f3.ttf",
+    "static/media/PortfolioResume.a04fa6e2.pdf": "/static/media/PortfolioResume.a04fa6e2.pdf",
+    "static/media/RobotoMono-Regular.418a8f9f.ttf": "/static/media/RobotoMono-Regular.418a8f9f.ttf",
+    "static/media/Screenshot (7).aa3e40de.png": "/static/media/Screenshot (7).aa3e40de.png",
+    "static/media/Contact.css": "/static/media/back4.54def50b.jpg",
+    "static/media/App.css": "/static/media/image.18da6961.png",
+    "static/media/HeroSection.css": "/static/media/neutral.95ef0f8e.jpg",
+    "static/media/oie_5Be29GVhovIV.6ecd18d3.png": "/static/media/oie_5Be29GVhovIV.6ecd18d3.png",
+    "static/media/social.0d8fcda6.png": "/static/media/social.0d8fcda6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.804a31b5.js",
+    "static/js/2.5d908fa0.chunk.js",
+    "static/css/main.e13d19a8.chunk.css",
+    "static/js/main.1fc0f95a.chunk.js"
+  ]
+}
